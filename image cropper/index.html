@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello There I am back with some more things</title>
+    <link rel="stylesheet" href="files/cropper.css">
+    <link rel="stylesheet" href="css.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="files/cropper.js"></script>
+    <script src="image%20slider%20support%20files/ism-2.2.min.js"></script>
+    <link rel="stylesheet" href="image%20slider%20support%20files/my-slider.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<header>
+    <div>
+        <img class="logo" src="../logo.svg" height="50px">
+        <div class="caption">Made by tmibvishal</div>
+    </div>
+</header>
+<main>
+    <br>
+    <div class="container">
+        <div><head1><strong>Hey!</strong> Let's create a seamless photo</head1></div><br>
+        <input type="file" id="fileInputButton" onchange="loadImage.call(this)">
+        <br><br>
+        <div id="imgContainer">
+            <img id="imgCrop" style="display: none;">
+        </div>
+        <br>
+        <div>
+            <button onclick="saveimg.call(this)" id="saveImageButton" style="display: none;">
+                Process Image
+            </button>
+        </div>
+        <img id="forTesting">
+    </div>
+    <br>
+    <br>
+</main>
+</body>
+<script src="script.js"></script>
+</html>
