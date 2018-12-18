@@ -1,0 +1,42 @@
+header div{
+    text-align: center;
+}
+
+.container{
+    width: 500px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+input[type=text]{
+    border: 2px solid #aaa;
+
+    outline: none;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+input[type=text]:focus{
+    border-color: dodgerBlue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+input[type=button]{
+    border: 2px solid #aaa;
+    padding: 5px;
+}
+
+input[type=button]:focus{
+    border-color: dodgerBlue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+textarea{
+    width: 100%;
+}
+
+@media screen and (max-width: 516px){
+    .container{
+        width: 100%;
+    }
+}
